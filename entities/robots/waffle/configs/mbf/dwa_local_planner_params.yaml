@@ -1,4 +1,4 @@
-# params are from https://github.com/ROBOTIS-GIT/turtlebot3/blob/master/turtlebot3_navigation/param/dwa_local_planner_params_waffle_pi.yaml
+# params are from https://github.com/ROBOTIS-GIT/turtlebot3/blob/master/turtlebot3_navigation/param/dwa_local_planner_params_waffle.yaml
 DwaLocalPlannerROS:
 
 # Robot Configuration Parameters

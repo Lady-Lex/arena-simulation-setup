@@ -106,6 +106,7 @@
   </xacro:if>
 
   <xacro:include filename="$(find arena_simulation_setup)/entities/robots/jackal/urdf/accessories/stereo_camera_mount.urdf.xacro" />
+  <xacro:include filename="$(find pointgrey_camera_description)/urdf/pointgrey_flea3.urdf.xacro" />
   <!-- If enabled, generates a pair of flea3 cameras for stereo vision with a tilt of 30 degrees. -->
   <!-- Disabled temporarily due to metapackage issue. -->
   <xacro:if value="$(optenv JACKAL_STEREO_FLEA3 0)">

@@ -15,18 +15,20 @@
       <static>true</static>
       <link name="body">
         <visual name="visual">
-          <pose frame="">-12.5 -12.5 1 0 0 0</pose>
+          <pose frame="">-50 -50 1 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>//map.dae</uri>
+              <scale>4 4 1</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision1">
-          <pose frame="">-12.5 -12.5 1 0 0 0</pose>
+          <pose frame="">-50 50 1 0 0 0</pose>
           <geometry>
             <mesh>
               <uri>//map.dae</uri>
+              <scale>4 4 1</scale>
             </mesh>
           </geometry>
         </collision>
